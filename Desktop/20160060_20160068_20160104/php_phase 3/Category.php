@@ -12,7 +12,8 @@ class Category
 	// $labtops=new labtops();
 	// $cloths=new cloths();
 	// $others=new others();
-	public function listcategory(){}
+	///////////////////////////////////////////////////////////
+	//public function listcategory(){}
 }
 
 

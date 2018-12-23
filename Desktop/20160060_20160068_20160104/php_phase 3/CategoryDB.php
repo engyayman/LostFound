@@ -8,6 +8,7 @@ class CategoryDB
 	// {
 	// 	# code...
 	// }
+	/////////////////////////////////////////////////////////////////////////
 	public function retruncategoryposts(){}
 	public function insertpostintocategory(){}
 }
