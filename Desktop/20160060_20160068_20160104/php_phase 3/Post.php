@@ -40,7 +40,7 @@ class Post
 	}
 	public function getcategory()
 	{
-		return $this->categorytype;
+		return $this->categorytype;/////////////////////////////////////////////////
 	}
 	public function getdescription(){
 	return $this->description;
