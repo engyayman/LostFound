@@ -21,7 +21,9 @@
     <br>
     <input type="text" name="question" style="width: 250px; height: 200px"  required>
     <br>
+    <br>
     <label>please select from categories</label>
+    <!-- to make user choose from them-->
     <select name="select">
     	<option value="clothes">clothes</option>
     	<option value="mobile">mobile</option>
