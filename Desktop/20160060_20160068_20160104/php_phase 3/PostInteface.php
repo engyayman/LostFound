@@ -1,5 +1,6 @@
 
 <?php
+////////////////////////////////////////////////////////
 class Postinterface
 	{
 	function __construct(argument)
