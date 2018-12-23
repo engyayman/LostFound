@@ -11,7 +11,7 @@ class FormDB
 //	{
 		# code...
 //	} 
-
+// this is add form
     public function addform($form){
     	$quest= $form->getquestion();
     	$db=new PDO('mysql:host=localhost;dbname=lostfind;charset=utf8','root','');
@@ -27,8 +27,13 @@ class FormDB
       $stat="somthing wrong......";
     }
     }
+    // this function retrive form to user to fill 
+
     public function retrieveform(){}
+    // this removing form
+
     public function removeform(){}
+    //this to update form
     public function updateform(){}
 }
 

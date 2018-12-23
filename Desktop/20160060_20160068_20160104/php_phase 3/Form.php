@@ -18,11 +18,13 @@ class Form
 		$this->phone=$phon;
 
 	}
+	//to set name
 	
 	public function setname($question){
 		$this->question=$question;
 
 	}
+	// to ser answers on form
 	public function setamswers($answers){
 		$this->answers=$answers;
 
