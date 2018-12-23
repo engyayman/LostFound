@@ -4,6 +4,7 @@
 	<title>Login</title>
 </head>
 <body>
+	<!--to login here-->
 	<h1>Login</h1>
 <form action="log.php" method="POST">
 
@@ -18,5 +19,6 @@
 	<br>
 	<input type="submit" name="sub">
 </form>
+
 </body>
 </html>
