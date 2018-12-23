@@ -62,9 +62,9 @@ if($x==0)
 
 
 
-else if($searchcategory=='clothes'){
+if($searchcategory=='clothes'){
 
-$selecto = $db->prepare("SELECT * FROM post where category like'%clothe%'");
+$selecto = $db->prepare("SELECT * FROM post where category like'%clothes%'");
 $selecto->execute();
 $x=0;
 foreach ($selecto as $val) {
@@ -86,9 +86,9 @@ if($x==0)
 
 }
 
-else if($searchcategory=='mobiles'){
+if($searchcategory=='mobiles'){
 
-$selecto = $db->prepare("SELECT * FROM post where category like'%mobile%'");
+$selecto = $db->prepare("SELECT * FROM post where category like'%mobiles%'");
 $selecto->execute();
 $x=0;
 foreach ($selecto as $val) {
@@ -111,9 +111,9 @@ if($x==0)
 }
 
 
-else if($searchcategory=='others'){
+if($searchcategory=='others'){
 
-$selecto = $db->prepare("SELECT * FROM post where category like'%other%'");
+$selecto = $db->prepare("SELECT * FROM post where category like'%others%'");
 $selecto->execute();
 $x=0;
 foreach ($selecto as $val) {
